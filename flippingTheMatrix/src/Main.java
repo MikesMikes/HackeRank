@@ -26,7 +26,10 @@ public class Main {
 
     }
 
-
+    /*
+    iReverse is the mirror index. i.e. For matrix size = 4. i = 0, iReverse = 3, matrix size max index.
+    Traverses one quadrant and checks for a higher number in the other quadrants.
+     */
     public static int flippingMatrix(List<List<Integer>> matrix) {
 
         int quadrantSize = matrix.size() / 2;
